@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  mongodb:
+    restart: always
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongodb-user
+      MONGO_INITDB_ROOT_PASSWORD: mongodb-password
+    ports:
+      - 127.0.0.1:27017:27017

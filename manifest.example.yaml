@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: RelayResources
+metadata:
+  name: relay-resources
+  namespace: dev
+spec:
+  resources:
+    - name: mongo-dev
+      port: 37017
+      service:
+        host: localhost
+        # host: mongo.dev.svc.cluster.local
+        port: 27017
+    - name: postgres-dev
+      port: 5442
+      service:
+        host: localhost
+        # host: postgres.dev.svc.cluster.local
+        port: 5432
