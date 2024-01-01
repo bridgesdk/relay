@@ -60,7 +60,7 @@
     "@types/passport": "1.0.16",
     "@types/passport-github": "1.1.12",
     "@types/passport-jwt": "3.0.13",
-    "@typescript-eslint/eslint-plugin": "6.13.1",
+    "@typescript-eslint/eslint-plugin": "6.16.0",
     "@typescript-eslint/eslint-plugin-tslint": "6.13.1",
     "@typescript-eslint/parser": "6.13.1",
     "eslint": "8.54.0",
